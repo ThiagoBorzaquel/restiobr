@@ -1,0 +1,4 @@
+exclude:
+  - scripts/
+  - "*.py"
+  - README.md

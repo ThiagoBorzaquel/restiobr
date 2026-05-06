@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contato - Restio Bem-Estar</title>
+  <meta name="description" content="Entre em contato com a equipe da Restio Bem-Estar. Perguntas, sugestoes ou parcerias sao bem-vindas.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://restiobemestar.com.br/contato.html">
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="header-inner">
+    <a href="index.html" class="logo"><img src="images/logo.svg" alt="Restio Bem-Estar" width="200" height="40"></a>
+    <nav class="site-nav">
+      <div class="nav-links">
+        <a href="index.html">Inicio</a>
+        <a href="categoria.html">Ver Tudo</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="contato.html">Contato</a>
+      </div>
+    </nav>
+    <button class="hamburger" aria-label="Abrir menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+<nav class="mobile-menu">
+  <div class="mobile-menu-header"><img src="images/logo.svg" alt="Restio Bem-Estar" height="36"><button class="mobile-menu-close">X</button></div>
+  <div class="mobile-nav-links">
+    <a href="index.html">Inicio</a><a href="categoria.html">Todos os Produtos</a>
+    <a href="sobre.html">Sobre</a><a href="contato.html">Contato</a>
+  </div>
+</nav>
+
+<section style="background:linear-gradient(135deg,var(--green-frost),var(--beige-pale));padding:64px 0">
+  <div class="container container--narrow" style="text-align:center">
+    <div class="breadcrumb" style="justify-content:center"><a href="index.html">Inicio</a><span>&rsaquo;</span><span>Contato</span></div>
+    <h1 style="margin-top:16px">Entre em Contato</h1>
+    <p style="margin-top:16px;color:var(--gray-mid)">Perguntas, sugestoes ou parcerias? Lemos todas as mensagens.</p>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="contact-grid">
+      <div class="fade-in">
+        <h2>Vamos conversar sobre bem-estar</h2>
+        <p style="margin:20px 0">Somos uma equipe pequena e apaixonada, dedicada a ajudar as pessoas a viverem de forma mais saudavel, calma e energizada. Seja uma duvida sobre produto, uma recomendacao ou uma proposta de colaboracao — adoramos ouvir de voce.</p>
+        <div style="display:flex;flex-direction:column;gap:24px;margin-top:32px">
+          <div style="display:flex;gap:16px;align-items:flex-start">
+            <div style="width:44px;height:44px;background:var(--green-pale);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1.2rem;flex-shrink:0">&#128231;</div>
+            <div>
+              <div style="font-weight:500;color:var(--green-dark);font-size:0.9rem">E-mail</div>
+              <a href="mailto:ola@restiobemestar.com.br" style="color:var(--green-mid);font-size:0.95rem">ola@restiobemestar.com.br</a>
+            </div>
+          </div>
+          <div style="display:flex;gap:16px;align-items:flex-start">
+            <div style="width:44px;height:44px;background:var(--green-pale);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1.2rem;flex-shrink:0">&#9200;</div>
+            <div>
+              <div style="font-weight:500;color:var(--green-dark);font-size:0.9rem">Tempo de Resposta</div>
+              <p style="font-size:0.9rem">Respondemos em ate 2 dias uteis.</p>
+            </div>
+          </div>
+          <div style="display:flex;gap:16px;align-items:flex-start">
+            <div style="width:44px;height:44px;background:var(--green-pale);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1.2rem;flex-shrink:0">&#129309;</div>
+            <div>
+              <div style="font-weight:500;color:var(--green-dark);font-size:0.9rem">Parcerias</div>
+              <p style="font-size:0.9rem">Avaliamos marcas de bem-estar seletivamente com base em alinhamento com nossos valores.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="fade-in">
+        <div style="background:white;border-radius:var(--radius-md);padding:40px;border:1px solid var(--beige-mid);box-shadow:var(--shadow-sm)">
+          <h3 style="margin-bottom:24px">Envie uma Mensagem</h3>
+          <div id="contact-form-wrap">
+            <div class="contact-form">
+              <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px">
+                <div class="form-group">
+                  <label for="cn">Nome</label>
+                  <input type="text" id="cn" placeholder="Maria">
+                </div>
+                <div class="form-group">
+                  <label for="cs">Sobrenome</label>
+                  <input type="text" id="cs" placeholder="Silva">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="ce">E-mail</label>
+                <input type="email" id="ce" placeholder="maria@exemplo.com.br" required>
+              </div>
+              <div class="form-group">
+                <label for="ca">Assunto</label>
+                <select id="ca">
+                  <option value="">Selecione um topico...</option>
+                  <option>Duvida sobre produto</option>
+                  <option>Recomendacao de produto</option>
+                  <option>Proposta de parceria</option>
+                  <option>Feedback editorial</option>
+                  <option>Outro</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="cm">Mensagem</label>
+                <textarea id="cm" placeholder="Como podemos ajudar voce?"></textarea>
+              </div>
+              <button type="button" class="btn btn-primary" style="width:100%;justify-content:center" onclick="submitContact()">Enviar Mensagem</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand"><img src="images/logo.svg" alt="Restio Bem-Estar" height="36"><p>Curadoria independente dos melhores produtos de bem-estar do Brasil.</p></div>
+      <div class="footer-col"><h5>Categorias</h5><ul>
+        <li><a href="categoria.html?categoria=sono">Sono</a></li>
+        <li><a href="categoria.html?categoria=estresse">Estresse</a></li>
+        <li><a href="categoria.html?categoria=energia">Energia</a></li>
+        <li><a href="categoria.html?categoria=foco">Foco</a></li>
+      </ul></div>
+      <div class="footer-col"><h5>Empresa</h5><ul>
+        <li><a href="sobre.html">Sobre Nos</a></li>
+        <li><a href="contato.html">Contato</a></li>
+        <li><a href="politica-de-privacidade.html">Privacidade</a></li>
+        <li><a href="termos.html">Termos</a></li>
+      </ul></div>
+      <div class="footer-col"><h5>Legal</h5><ul>
+        <li><a href="politica-de-privacidade.html">LGPD</a></li>
+        <li><a href="termos.html">Termos de Uso</a></li>
+        <li><a href="cookies.html">Cookies</a></li>
+      </ul></div>
+    </div>
+    <div class="footer-bottom">
+      <p class="footer-disclaimer">A Restio Bem-Estar participa do Programa de Afiliados da Amazon.com.br. Como Associado da Amazon, ganhamos com compras qualificadas.</p>
+      <p class="footer-copy">&copy; 2025 Restio Bem-Estar. Todos os direitos reservados.</p>
+    </div>
+  </div>
+</footer>
+<div class="cookie-banner" id="cookie-banner">
+  <div class="cookie-text"><p>Usamos cookies conforme a <strong>LGPD</strong>. <a href="cookies.html">Saiba mais</a>.</p></div>
+  <div class="cookie-actions">
+    <button class="cookie-accept" id="cookie-accept">Aceitar</button>
+    <button class="cookie-reject" id="cookie-reject">Recusar</button>
+  </div>
+</div>
+<script src="js/main.js"></script>
+<script>
+function submitContact() {
+  const email = document.getElementById('ce').value;
+  const msg   = document.getElementById('cm').value;
+  if (!email || !msg) { alert('Por favor, preencha seu e-mail e a mensagem.'); return; }
+  document.getElementById('contact-form-wrap').innerHTML = `
+    <div style="text-align:center;padding:40px 0">
+      <div style="font-size:3rem;margin-bottom:16px">&#9993;&#65039;</div>
+      <h3>Mensagem enviada!</h3>
+      <p style="margin-top:12px;color:var(--gray-mid)">Obrigado pelo contato. Retornaremos em ate 2 dias uteis.</p>
+    </div>`;
+}
+</script>
+</body>
+</html>
